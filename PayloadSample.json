@@ -1,0 +1,26 @@
+{
+  "orderNumber": 12345,
+  "orderDate": "2023-03-20",
+  "customerName": "Kent Weare",
+  "customerId": 9998888,
+  "ShipTo": {
+    "address": "123 Main Street",
+    "city": "Calgary",
+    "state": "Alberta",
+    "zip": "T3G8B3"
+  },
+  "items": [
+    {
+      "productId": 123,
+      "cost": 100
+    },
+    {
+      "productId": 124,
+      "cost": 200
+    },
+    {
+      "productId": 125,
+      "cost": 450.11
+    }
+  ]
+}

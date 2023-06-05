@@ -43,7 +43,7 @@ namespace My.Functions
             _logger = loggerFactory.CreateLogger<ProcessOrder>();
         }
 
-        [Function("HttpExample")]
+        [Function("ProcessOrder")]
         public HttpResponseData Run([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post")] HttpRequestData req)
         {
             var serializeOptions = new JsonSerializerOptions
